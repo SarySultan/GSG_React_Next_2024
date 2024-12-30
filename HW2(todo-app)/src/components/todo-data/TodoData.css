@@ -1,0 +1,22 @@
+.Data {
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 10px auto;
+    max-width: 250px;
+  }
+  
+  .Data div:first-child {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4a4a4a;
+  }
+  
+  .Data div:last-child {
+    font-size: 14px;
+    color: #888;
+    text-transform: uppercase;
+  }
+  

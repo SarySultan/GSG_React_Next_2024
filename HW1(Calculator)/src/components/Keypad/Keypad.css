@@ -1,0 +1,38 @@
+.keypad {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  
+  .keypad button {
+    background-color: #5a6efb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .keypad button:hover {
+    background-color: #4456c6;
+  }
+  
+  .keypad .operation {
+    background-color: #f6a623;
+  }
+  
+  .keypad .operation:hover {
+    background-color: #c5841e;
+  }
+  
+  .keypad .equals {
+    grid-column: span 3;
+    background-color: #4caf50;
+  }
+  
+  .keypad .equals:hover {
+    background-color: #388e3c;
+  }
+  
